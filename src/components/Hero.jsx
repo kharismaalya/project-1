@@ -2,6 +2,8 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 
 import { InvitationModal } from "./InvitationModal";
+import gedung from "../assets/images/gedung.jpg";
+
 import dashboard from "../assets/images/dashboard.jpg";
 
 export const Hero = () => {
@@ -9,7 +11,13 @@ export const Hero = () => {
 
   return (
     <section
-      className="w-screen  flex justify-left items-left bg-blue-200 mb-[28vw] md:mb-[18vw] lg:mb-[10vw] xl:mb-[13vw] 2xl:mb-60 hero-bg-gradient pb-24 sm:pb-32 md:pb-44 lg:pb-0"
+      style={{
+        backgroundImage: `url(${gedung})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        // opacity: 0.5, // Atur transparansi di sini
+      }}
+      className=" w-screen flex justify-left items-left bg-bgContent mb-[28vw] md:mb-[18vw] lg:mb-[10vw] xl:mb-[13vw] 2xl:mb-60 hero-bg-gradient pb-24 sm:pb-32 md:pb-44 lg:pb-0"
       id="home"
     >
       <div className="w-full m-28 md:w-[800px] xl:w-[900px] flex flex-col justify-left items-left pt-16 md:pt-16 lg:pt-20 text-left">

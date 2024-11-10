@@ -6,8 +6,8 @@ import { GithubIcon } from "../assets/icons/GithubIcon";
 
 const navbarLinks = [
   { label: "Home", href: "/#home", ariaLabel: "Home" },
-  { label: "Featu", href: "/#features", ariaLabel: "Features" },
-  { label: "Pricing", href: "/#pricing", ariaLabel: "Pricing" },
+  { label: "About Us", href: "/#features", ariaLabel: "About Us" },
+  { label: "Service", href: "/#pricing", ariaLabel: "Service" },
   { label: "Feedback", href: "/#feedback", ariaLabel: "Feedback" },
   { label: "FAQ", href: "/#FAQ", ariaLabel: "FAQ" },
 ];
@@ -17,7 +17,7 @@ export const Navbar = () => {
 
   return (
     <nav
-      className="w-full h-20 flex flex-col justify-center items-center fixed bg-blue-950 lg:bg-blue-950 z-40 lg:backdrop-blur-xl"
+      className="w-full h-20 flex flex-col justify-center items-center fixed bg-bgContent2 lg:bg-bgContent2 z-40 lg:backdrop-blur-xl"
       aria-label="Main navigation"
       // style="background-color: #13293D;"
     >
@@ -111,14 +111,14 @@ export const Navbar = () => {
                   {label}
                 </a>
               ))}
-              <a
+              {/* <a
                 className="outlined-button pl-6 pr-8 pt-2 pb-2  flex"
                 href="https://github.com/matt765/Tidestream"
                 target="_blank"
               >
                 <GithubIcon />
                 Source code
-              </a>
+              </a> */}
             </div>
           </motion.div>
         )}
