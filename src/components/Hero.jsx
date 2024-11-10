@@ -9,10 +9,10 @@ export const Hero = () => {
 
   return (
     <section
-      className="w-screen  flex justify-center items-center bg-blue-200 mb-[28vw] md:mb-[18vw] lg:mb-[10vw] xl:mb-[13vw] 2xl:mb-60 hero-bg-gradient pb-24 sm:pb-32 md:pb-44 lg:pb-0"
+      className="w-screen  flex justify-left items-left bg-blue-200 mb-[28vw] md:mb-[18vw] lg:mb-[10vw] xl:mb-[13vw] 2xl:mb-60 hero-bg-gradient pb-24 sm:pb-32 md:pb-44 lg:pb-0"
       id="home"
     >
-      <div className="w-full md:w-[800px] xl:w-[900px] flex flex-col justify-center items-center pt-16 md:pt-16 lg:pt-20 text-center">
+      <div className="w-full m-28 md:w-[800px] xl:w-[900px] flex flex-col justify-left items-left pt-16 md:pt-16 lg:pt-20 text-left">
         {/* <motion.div
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
@@ -27,7 +27,7 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-white text-4xl lg:text-3xl mb-6 lg:mt-32 mt-16 font-bold">
+          <h2 className="text-white text-4xl lg:text-3xl mb-6 lg:mt-6 mt-16 font-bold">
             WELCOME TO
           </h2>
         </motion.div>
@@ -36,11 +36,11 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.05 }}
         >
-          <div className="text-5xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-primaryText  px-8 sm:px-8 md:px-20 lg:px-4">
+          <div className="text-5xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-primaryText  flex justify-start">
             <h1 className="inline md:hidden">PT. JARING DATA</h1>
             <h1 className="hidden md:inline">PT. JARING DATA</h1>
           </div>
-          <h1 className="mt-2 sm:mt-2 text-5xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-primaryText  px-8 sm:px-20 md:px-24 lg:px-24">
+          <h1 className="mt-2 sm:mt-2 text-5xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-primaryText  flex justify-start">
             NUSANTARA
           </h1>
         </motion.div>
@@ -49,13 +49,9 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
         >
-          <h2 className="text-secondaryText text-sm lg:text-base xl:text-lg sm:text-base mt-10 px-12 sm:px-48 ">
-            Menyediakan layanan internet berbasis voucher dan berlangganan
-            dengan biaya terjangkau tanpa perlu investasi perangkat mahal.
-            Layanan internet 'CLEON' ideal untuk berbagai sektor bisnis seperti
-            hotel, kafe, guest house, kost, angkringan serta fasilitas publik
-            lainnya termasuk RT/RW Net. Kami menerapkan sistem kemitraan yang
-            menguntungkan dengan pembagian hasil yang transparan.
+          <h2 className="text-secondaryText text-sm lg:text-base xl:text-lg sm:text-base mt-10 flex justify-start ">
+            "Connected Business, Smart Solution. CLEON by JDN - Your Digital
+            Partner."
           </h2>
         </motion.div>
         <motion.div
@@ -64,14 +60,14 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.15 }}
         >
           <div className="flex flex-col gap-2 sm:flex-row mt-14 mb-24 sm:mb-40 justify-center">
-            <button
+            {/* <button
               className="contained-button w-64 sm:w-52 h-12 mr-0 sm:mr-4 lg:mr-6 mb-2 sm:mb-0"
               onClick={() => setIsModalOpen(true)}
               aria-label="Get started"
               // style="background-color: #13293D"
             >
               Get Started
-            </button>
+            </button> */}
             {/* <button
               className="w-64 sm:w-52 h-12 rounded-xl font-bold text-primaryText border border-solid  flex justify-center items-center cursor-pointer bg-bgDark2 hover:bg-bgDark3 border-primaryColor transition"
               onClick={() => setIsModalOpen(true)}
