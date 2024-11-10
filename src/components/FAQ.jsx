@@ -75,27 +75,6 @@ const FAQBox = ({ defaultOpen, title, content }) => {
           {content}
         </p>
       </div>
-      {/* <div className="absolute top-6 right-4 sm:top-8 sm:right-8">
-        <svg
-          width="28px"
-          height="30px"
-          viewBox="0 0 20 20"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          className={`transition-all duration-500  ${
-            isOpen ? "rotate-[180deg]" : "rotate-[270deg]"
-          }`}
-        >
-          <path
-            d="M4.16732 12.5L10.0007 6.66667L15.834 12.5"
-            stroke="#4F46E5"
-            className="text-white"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          ></path>
-        </svg>
-      </div> */}
       <div className="absolute top-6 right-4 sm:top-8 sm:right-8">
         <svg
           width="28px"
