@@ -11,13 +11,15 @@ module.exports = {
         bgDark1: "rgb(31, 32, 35)",
         bgDark2: "rgb(38, 39, 43)",
         bgDark3: "rgb(48, 49, 54)",
-        bgDark3Hover: "rgb(55, 56, 62)",
+        bgDark3Hover: "#5C677D",
         bgDarkTransparent: "rgb(31, 32, 35, 0.7)",
         bgDarkTransparentDarker: "rgb(0,0,0,0.5)",
         bgDarkTransparentLighter: "rgb(48, 49, 54, 0.7)",
         mainBorder: "rgb(255,255,255,0.15)",
         mainBorderDarker: "rgb(255,255,255,0.07)",
-        quoteIconColor: "rgb(178, 184, 205)"
+        quoteIconColor: "rgb(178, 184, 205)",
+        bgContent: "#001233",
+        bgContent2: "#33415C",
       },
       fontFamily: {
         Inter: "Inter",
@@ -27,10 +29,9 @@ module.exports = {
         sm: "640px",
         md: "768px",
         lg: "1024px",
-        xl: "1280px",      
+        xl: "1280px",
         "2xl": "1536px",
       },
     },
   },
 };
-
