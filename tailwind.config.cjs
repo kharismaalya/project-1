@@ -18,8 +18,8 @@ module.exports = {
         mainBorder: "rgb(255,255,255,0.15)",
         mainBorderDarker: "rgb(255,255,255,0.07)",
         quoteIconColor: "rgb(178, 184, 205)",
-        bgContent: "#001233",
-        bgContent2: "#33415C",
+        bgContent: "#58A4B0",
+        bgContent2: "#2B303A",
         backgroundImage: "../assets/images/gedung.jpg",
       },
       fontFamily: {

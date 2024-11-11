@@ -20,7 +20,8 @@ export const Hero = () => {
       />
 
       {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-blue-900/80 to-blue-400/50 z-10" />
+      <div className="absolute inset-0 bg-gradient-to-b from-bgContent-900/80 to-bgContent-400/50 z-10" />
+      {/* <div className="absolute inset-0 bg-bgContent bg-opacity-50 z-10" /> */}
 
       {/* Content */}
       <div className="relative z-20 max-w-7xl mx-auto w-full py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8">
