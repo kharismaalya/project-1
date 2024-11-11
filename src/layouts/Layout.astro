@@ -25,14 +25,15 @@ const { title } = Astro.props;
       content="Dark themed website template built on AstroJS, designed for fictional startup"
     />
     <title>{title}</title>
-  </head><body class="">
+  </head>
+  <body class="">
     <main aria-label="Main content">
       <slot />
     </main>
     <style is:global>
       html {
         font-family: Inter;
-        /* background-color: #26272b; */
+        background-color: #001233;
         overflow-x: hidden;
         scroll-behavior: smooth !important;
       }
