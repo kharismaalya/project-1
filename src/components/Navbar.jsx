@@ -6,8 +6,8 @@ import { GithubIcon } from "../assets/icons/GithubIcon";
 
 const navbarLinks = [
   { label: "Home", href: "/#home", ariaLabel: "Home" },
-  { label: "About Us", href: "/#features", ariaLabel: "About Us" },
-  { label: "Service", href: "/#pricing", ariaLabel: "Service" },
+  { label: "About Us", href: "/#About Us", ariaLabel: "About Us" },
+  { label: "Service", href: "/#Service", ariaLabel: "Service" },
   { label: "Feedback", href: "/#feedback", ariaLabel: "Feedback" },
   { label: "FAQ", href: "/#FAQ", ariaLabel: "FAQ" },
 ];
@@ -33,9 +33,9 @@ export const Navbar = () => {
               <div className="text-white mr-2 text-6xl">
                 <TailcastLogo />
               </div>
-              <div className="text-white font-['Inter'] font-bold text-xl">
+              {/* <div className="text-white font-['Inter'] font-bold text-xl">
                 JDN
-              </div>
+              </div> */}
             </div>
           </a>
         </motion.div>
