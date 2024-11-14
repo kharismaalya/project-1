@@ -8,7 +8,7 @@ import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 
 export const Features1 = () => {
   return (
-    <section className="w-full bg-bgDark2 pt-24 -mt-8  mb-8 sm:-mt-8 sm:mb-24 xl:-mt-8 2xl:mt-0 md:pt-[12vw] lg:pt-16">
+    <section className="w-full bg-grey1 pt-24 -mt-8  mb-8 sm:-mt-8 sm:mb-24 xl:-mt-8 2xl:mt-0 md:pt-[12vw] lg:pt-16">
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -19,7 +19,7 @@ export const Features1 = () => {
           <div className="w-full lg:w-1/2 mb-12 lg:mb-0">
             <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
               <span className="block-subtitle">About Us</span>
-              <h2 className="mt-6 mb-8 text-4xl lg:text-5xl block-big-title">
+              <h2 className="mt-6 mb-8 text-dark text-4xl lg:text-5xl block-big-title">
                 Jaring Data Nusantara
               </h2>
               <p className="text-justify text-secondaryText leading-loose">

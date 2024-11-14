@@ -1,10 +1,10 @@
 /* Typography */
 
 .block-title {
-  @apply text-primaryText text-3xl font-bold tracking-normal;
+  @apply text-dark text-3xl font-bold tracking-normal;
 }
 .block-big-title {
-  @apply text-primaryText text-4xl xl:text-5xl font-bold tracking-normal;
+  @apply text-dark text-4xl xl:text-5xl font-bold tracking-normal;
 }
 .block-subtitle {
   @apply text-xs text-secondaryColor  tracking-wider font-bold uppercase;

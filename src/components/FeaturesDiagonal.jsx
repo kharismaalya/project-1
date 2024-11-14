@@ -8,18 +8,18 @@ export const FeaturesDiagonal = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
-    <section className="lg:mb-16 w-full flex flex-col justify-center items-center bg-bgContent">
+    <section className="lg:mb-16 w-full flex flex-col justify-center items-center bg-white">
       <div className="shape-divider-bottom-1665696614">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1200 120"
           preserveAspectRatio="none"
-          className="bg-bgDark2  fill-bgDark2"
+          className="bg-gray-900 fill-gray-900"
         >
           <path
             d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
-            className="bg-bgDark1  fill-bgDark1"
+            className="bg-gray-800 fill-gray-800"
           ></path>
         </svg>
       </div>
@@ -29,13 +29,15 @@ export const FeaturesDiagonal = () => {
         viewport={{ once: true }}
         transition={{ duration: 0.5, delay: 0.2 }}
       >
-        <div className=" 2xl:w-[1150px] xl:w-[1050px]  md:w-4/5 flex justify-center pt-12 lg:pt-24 pb-8 lg:pb-20 mx-auto lg:flex-row flex-col">
+        <div className=" 2xl:w-[1150px] xl:w-[1050px] md:w-4/5 flex justify-center pt-12 lg:pt-24 pb-8 lg:pb-20 mx-auto lg:flex-row flex-col">
           <div className="w-3/4 lg:w-1/2 flex flex-col lg:mx-unset mx-auto">
-            <span className="block-subtitle">Accelerate Your Success</span>
-            <h2 className="mt-10 mb-8 text-4xl lg:text-5xl block-big-title">
+            <span className="text-gray-800 block-subtitle">
+              Accelerate Your Success
+            </span>
+            <h2 className="mt-10 mb-8 text-4xl lg:text-5xl block-big-title text-gray-800">
               Build &amp; Launch without problems
             </h2>
-            <p className="mb-16 text-secondaryText leading-loose">
+            <p className="mb-16 text-gray-600 leading-loose">
               Our platform enables you to launch your data-driven projects with
               ease. Boost productivity and achieve better results. Empower your
               decision-making with advanced analytics
@@ -52,7 +54,7 @@ export const FeaturesDiagonal = () => {
             <img
               src={featuresdiagonal.src}
               alt="Feature image"
-              className="rounded-xl  main-border-gray"
+              className="rounded-xl main-border-gray"
             />
           </div>
         </div>
@@ -63,11 +65,11 @@ export const FeaturesDiagonal = () => {
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1200 120"
           preserveAspectRatio="none"
-          className="bg-bgDark2 fill-bgDark2"
+          className="bg-gray-900 fill-gray-900"
         >
           <path
             d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
-            className="bg-bgDark1 fill-bgDark1"
+            className="bg-gray-800 fill-gray-800"
           ></path>
         </svg>
       </div>

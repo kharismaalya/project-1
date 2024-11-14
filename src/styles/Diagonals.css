@@ -13,7 +13,7 @@
   transform: rotate(180deg);
 }
 
-.hero-background {
+/* .hero-background {
   position: absolute;
   top: 0;
   left: 0;
@@ -24,4 +24,12 @@
   background-position: center;
   background-repeat: no-repeat;
   z-index: 0;
+} */
+
+.hero-image {
+  max-height: 500px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }

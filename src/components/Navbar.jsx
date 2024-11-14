@@ -17,7 +17,7 @@ export const Navbar = () => {
 
   return (
     <nav
-      className="w-full h-20 flex flex-col justify-center items-center fixed bg-bgContent2 lg:bg-bgContent2 z-40 lg:backdrop-blur-xl"
+      className="w-full h-20 flex flex-col justify-center items-center fixed bg-white lg:bg-white z-40 lg:backdrop-blur-xl shadow-sm"
       aria-label="Main navigation"
       // style="background-color: #13293D;"
     >
@@ -48,7 +48,7 @@ export const Navbar = () => {
           <div className="hidden lg:flex h-full pl-12 pb-2">
             {navbarLinks.map(({ href, label, ariaLabel }) => (
               <a
-                className="text-white lg:text-base text-2xl  leading-6 mr-4 ml-4   2xl:mr-6 2xl:ml-6 cursor-pointer font-normal lg:font-medium hover:scale-110 transition h-full pt-2"
+                className="text-textJudul lg:text-base text-2xl  leading-6 mr-4 ml-4   2xl:mr-6 2xl:ml-6 cursor-pointer font-normal lg:font-medium hover:scale-110 transition h-full pt-2"
                 href={href}
                 aria-label={ariaLabel}
                 key={label}
