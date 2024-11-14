@@ -1,0 +1,44 @@
+/* src/components/Hero/Hero.css */
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-left {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.5s ease-out forwards;
+}
+
+.animate-fade-left {
+  animation: fade-left 0.5s ease-out forwards;
+}
+
+.animate-fade-up:nth-child(2) {
+  animation-delay: 0.05s;
+}
+
+.animate-fade-up:nth-child(3) {
+  animation-delay: 0.1s;
+}
+
+.animate-fade-left {
+  animation-delay: 0.2s;
+}
+
+/* Removed hero-image class since we're using Tailwind classes directly */

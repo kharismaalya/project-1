@@ -72,7 +72,7 @@ export const Hero = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          <img src={peoplehome} alt="Building" className="hero-image" />
+          <img src={peoplehome.src} alt="Building" className="hero-image" />
         </motion.div>
 
         {/* <div className="flex-1 w-64 space-y-8 lg:space-y-12">
