@@ -24,9 +24,9 @@ const blogData = [
 ];
 
 export const Blog = () => (
-  <section className="w-screen flex justify-center bg-bgDark2 relative ">
+  <section className="w-screen flex justify-center bg-grey1 relative ">
     <div className="absolute -top-16" id="blog" />
-    <div className="pb-0 pt-4 bg-bgDark2 2xl:w-[1200px] lg:w-[1000px] xl:w-[1150px]  ">
+    <div className="pb-0 pt-4 bg-grey1 2xl:w-[1200px] lg:w-[1000px] xl:w-[1150px]  ">
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -46,7 +46,7 @@ export const Blog = () => (
           <div className="flex 2xl:w-[1200px] lg:w-[1000px] xl:w-[1150px] flex-wrap -mx-4 items-start h-auto sm:h-[30rem] lg:h-[31rem]  xl:h-[35rem]">
             <div className="flex sm:hidden lg:flex w-11/12 mx-auto sm:ml-0 sm:mr-0 lg:w-1/2 xl:w-3/5 px-4 mb-8 lg:mb-0  h-full">
               <a href="/blog/article">
-                <div className="p-6 sm:p-10 bg-bgDark3 rounded-3xl h-full hover:bg-bgDark3Hover transition cursor-pointer">
+                <div className="p-6 sm:p-10 bg-textJudul rounded-3xl h-full hover:bg-bgDark3Hover transition cursor-pointer">
                   <img
                     src={blogData[0].image}
                     alt={blogData[0].title}
@@ -67,7 +67,7 @@ export const Blog = () => (
                 <a
                   href="/blog/article"
                   key={`${post.title}-${index}`}
-                  className=" flex  gap-4 p-10 bg-bgDark3 rounded-3xl  min-h-1/2 h-1/2 max-h-[47%]
+                  className=" flex  gap-4 p-10 bg-textJudul rounded-3xl  min-h-1/2 h-1/2 max-h-[47%]
                   hover:bg-bgDark3Hover transition cursor-pointer"
                 >
                   <div className="pt-2">

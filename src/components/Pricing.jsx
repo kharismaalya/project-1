@@ -89,7 +89,7 @@ export const Pricing = () => {
   );
 
   return (
-    <section className="py-16 w-full bg-gray-900">
+    <section className="py-16 w-full bg-grey1">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-16">
           <motion.span
