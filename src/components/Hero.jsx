@@ -2,7 +2,6 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { InvitationModal } from "./InvitationModal";
 import peoplehome from "../assets/images/peoplehome.png";
-// import gedung from "../assets/images/gedung.jpg";
 
 export const Hero = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -26,7 +25,7 @@ export const Hero = () => {
 
       {/* Content */}
       <div className="flex relative z-20 max-w-7xl mx-auto w-full py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8">
-        <div className="flex-1 w-32 space-y- lg:space-y-12">
+        <div className=" mt-36 pt-8 pl-8 flex-1 w-32 space-y- lg:space-y-12">
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
@@ -63,6 +62,22 @@ export const Hero = () => {
               Partner."
             </h2>
           </motion.div>
+
+          {/* Add the Work Inquiry box here */}
+          <div className="inquiry-box">
+            <div className="inquiry-icon">
+              <svg
+                className="w-6 h-6"
+                fill="FFFFFF"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+              </svg>
+            </div>
+            <span className="inquiry-text"> Work Inquiry from JDN</span>
+          </div>
         </div>
 
         {/* Right Image */}
@@ -72,12 +87,12 @@ export const Hero = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          <img src={peoplehome.src} alt="Building" className="hero-image" />
+          <img
+            src={peoplehome.src}
+            alt="peoplehome"
+            className="rounded-sm  main-border-gray"
+          />
         </motion.div>
-
-        {/* <div className="flex-1 w-64 space-y-8 lg:space-y-12">
-          <p>afasdf</p>
-        </div> */}
       </div>
 
       {isModalOpen && (

@@ -28,7 +28,7 @@ module.exports = {
         quoteIconColor: "rgb(178, 184, 205)",
         bgContent: "#58A4B0",
         bgContent2: "#2B303A",
-        backgroundImage: "../assets/images/gedung.jpg",
+        // backgroundImage: "../assets/images/gedung.jpg",
       },
       fontFamily: {
         Inter: "Inter",

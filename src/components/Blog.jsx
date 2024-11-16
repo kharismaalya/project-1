@@ -36,10 +36,10 @@ export const Blog = () => (
         <div className="container px-4 mb-20">
           <div className="max-w-2xl text-center lg:text-left mb-16 mx-auto lg:ml-0 lg:mr-0">
             <span className="block-subtitle">Our Blog</span>
-            <h2 className="mt-6 mb-6 text-4xl lg:text-5xl font-bold font-heading text-primaryText">
+            <h2 className="mt-6 mb-6 text-4xl lg:text-5xl font-bold font-heading text-textJudul">
               Latest Insights
             </h2>
-            <p className="mb-6 text-secondaryText">
+            <p className="mb-6 text-textJudul">
               Stay updated with the latest trends and insights in our industry.
             </p>
           </div>

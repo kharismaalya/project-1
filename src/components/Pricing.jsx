@@ -95,7 +95,7 @@ export const Pricing = () => {
           <motion.span
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-blue-500 font-medium"
+            className="text-textJudul font-medium"
           >
             PRICING PLANS
           </motion.span>
@@ -103,7 +103,7 @@ export const Pricing = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
-            className="text-4xl font-bold mt-4 mb-6 text-white"
+            className="text-4xl font-bold mt-4 mb-6 text-textJudul"
           >
             Find the perfect plan for your business
           </motion.h2>
@@ -111,13 +111,13 @@ export const Pricing = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
-            className="text-gray-400 max-w-2xl mx-auto"
+            className="text-textJudul max-w-2xl mx-auto"
           >
             Choose the plan that best suits your needs. All plans include access
             to our core features.
           </motion.p>
 
-          <div className="inline-flex rounded-lg bg-gray-800 my-9">
+          <div className="inline-flex rounded-lg bg-textJudul my-9">
             {["monthly", "yearly", "hari", "jam"].map((period, index, arr) => (
               <button
                 key={period}
@@ -127,7 +127,7 @@ export const Pricing = () => {
                   ${index === arr.length - 1 ? "rounded-r-lg" : ""}
                   ${
                     selected === period
-                      ? "bg-blue-600 text-white"
+                      ? "bg-grey2 text-white"
                       : "text-gray-400 hover:bg-gray-700"
                   }
                   ${

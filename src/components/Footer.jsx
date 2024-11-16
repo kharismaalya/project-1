@@ -36,9 +36,7 @@ export const Footer = () => {
                 <div className="text-white mr-2 text-6xl">
                   <TailcastLogo />
                 </div>
-                <div className="text-white font-['Inter'] font-bold text-xl">
-                  Tailcast
-                </div>
+                <div className="text-white font-['Inter'] font-bold text-xl"></div>
               </div>
               <p className="mb-10 mt-4 sm:w-[22rem] lg:w-[20rem] xl:w-[24rem] text-gray-400 leading-loose text-center lg:text-left mx-auto lg:mx-0">
                 Dashboard images were made using free Dark Admin dashboard that
