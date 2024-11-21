@@ -17,7 +17,7 @@ export const Navbar = () => {
 
   return (
     <nav
-      className="w-full h-20 flex flex-col justify-center items-center fixed bg-white lg:bg-textJudul z-40 lg:backdrop-blur-xl shadow-sm"
+      className="w-full h-20 flex flex-col  justify-center items-center fixed bg-white lg:bg-White z-40 lg:backdrop-blur-xl shadow-sm"
       aria-label="Main navigation"
       // style="background-color: #13293D;"
     >
@@ -48,7 +48,7 @@ export const Navbar = () => {
           <div className="hidden lg:flex h-full pl-12 pb-2">
             {navbarLinks.map(({ href, label, ariaLabel }) => (
               <a
-                className="text-white lg:text-base text-2xl  leading-6 mr-4 ml-4   2xl:mr-6 2xl:ml-6 cursor-pointer font-normal lg:font-medium hover:scale-110 transition h-full pt-2"
+                className="text-dark lg:text-base text-2xl leading-6 mr-4 ml-4 2xl:mr-6 2xl:ml-6 cursor-pointer font-normal lg:font-medium hover:scale-110 transition h-full pt-2"
                 href={href}
                 aria-label={ariaLabel}
                 key={label}
@@ -67,7 +67,7 @@ export const Navbar = () => {
           {/* <div className="grow basis-0 justify-end hidden lg:flex">
             <a
               className="text-white main-border-gray rounded-xl
-           bg-bgDark2 hover:bg-bgDark3  border-gray-700 pl-6 pr-8 pt-2 pb-2 text-sm flex"
+            bg-bgDark2 hover:bg-bgDark3  border-gray-700 pl-6 pr-8 pt-2 pb-2 text-sm flex"
               href="https://github.com/matt765/Tidestream"
               target="_blank"
               aria-label="source code"
