@@ -24,8 +24,8 @@ export const Hero = () => {
       {/* <div className="absolute inset-0 bg-bgContent bg-opacity-50 z-10" /> */}
 
       {/* Content */}
-      <div className="flex relative z-20 max-w-7xl mx-auto w-full py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8">
-        <div className=" mt-36 pt-8 pl-8 flex-1 w-32 space-y- lg:space-y-12">
+      <div className="flex relative z-20 max-w-7xl mx-auto w-full py-12 sm:py-16 lg:py-10 px-4 sm:px-6 lg:px-8">
+        <div className=" mt-32 pt-2 pl-8 flex-1 w-32 space-y- lg:space-y-12">
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
@@ -103,12 +103,16 @@ export const Hero = () => {
 
         {/* Right Image */}
         <motion.div
-          className="hidden lg:flex flex-1 items-center justify-center"
+          className="hidden lg:flex flex-1 items-center justify-center py-12 sm:py-16 lg:py-24 px-4 sm:px-6 lg:px-8"
           initial={{ opacity: 0, x: 20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          <img src={peoplehome.src} alt="peoplehome" className="rounded-sm " />
+          <img
+            src={peoplehome.src}
+            alt="peoplehome"
+            className="w-[90%] h-auto object-cover rounded-lg shadow-2xl transform hover:scale-105 transition-transform duration-300"
+          />
         </motion.div>
       </div>
 

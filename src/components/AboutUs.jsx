@@ -10,9 +10,9 @@ import aboutus3 from "../assets/images/aboutus3.jpg";
 import aboutus4 from "../assets/images/aboutus4.jpg";
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 
-export const Features1 = () => {
+export const AboutUs = () => {
   return (
-    <section className="w-full bg-grey1 pt-24 -mt-8  mb-8 sm:-mt-8 sm:mb-24 xl:-mt-8 2xl:mt-0 md:pt-[12vw] lg:pt-16">
+    <section className="w-full bg-grey1 pt-24 -mt-8 sm:-mt-8 xl:-mt-8 2xl:mt-0 lg:pt-16 mb-8 sm:mb-24 md:pt-[12vw]">
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}

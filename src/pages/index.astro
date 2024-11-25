@@ -2,8 +2,8 @@
 import Layout from "../layouts/Layout.astro";
 import { Hero } from "../components/Hero.jsx";
 import { Navbar } from "../components/Navbar.jsx";
-import { Features1 } from "../components/Features1.jsx";
-import { Features2 } from "../components/Features2.jsx";
+import { AboutUs } from "../components/AboutUs.jsx";
+import { Service } from "../components/Service.jsx";
 import { Testimonials } from "../components/Testimonials.jsx";
 import { FeaturesDiagonal } from "../components/FeaturesDiagonal.jsx";
 import { Pricing } from "../components/Pricing.jsx";
@@ -20,12 +20,12 @@ import "../styles/Hero.css";
 <Layout title="JDNusantara">
   <Navbar client:load />
   <Hero client:load />
-  <Features1 client:load />
-  <Features2 client:load />
+  <AboutUs client:load />
+  <Service client:load />
   <FeaturesDiagonal client:load />
+  <Testimonials client:load />
   <Pricing client:load />
   <Brands client:load />
-  <Testimonials client:load />
   <Blog client:load />
   <FAQ client:load />
   <Footer />

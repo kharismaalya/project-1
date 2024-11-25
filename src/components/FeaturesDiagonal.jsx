@@ -8,7 +8,7 @@ export const FeaturesDiagonal = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
-    <section className="lg:mb-16 w-full flex flex-col justify-center items-center bg-white">
+    <section className=" w-full flex flex-col justify-center items-center bg-grey1">
       <div className="shape-divider-bottom-1665696614">
         <svg
           data-name="Layer 1"

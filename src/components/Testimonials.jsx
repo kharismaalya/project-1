@@ -30,7 +30,7 @@ const testimonialsData = [
 ];
 
 export const Testimonials = () => (
-  <section className="w-full flex justify-center pt-16 mb-16 lg:mb-32 bg-grey1 relative">
+  <section className="w-full flex justify-center py-16 bg-white relative">
     <div className="absolute -top-16" id="feedback" />
     <div className="flex flex-col w-full lg:w-[1150px] justify-center">
       <motion.div

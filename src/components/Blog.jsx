@@ -26,7 +26,7 @@ const blogData = [
 export const Blog = () => (
   <section className="w-screen flex justify-center bg-grey1 relative ">
     <div className="absolute -top-16" id="blog" />
-    <div className="pb-0 pt-4 bg-grey1 2xl:w-[1200px] lg:w-[1000px] xl:w-[1150px]  ">
+    <div className="py-10 bg-grey1 2xl:w-[1200px] lg:w-[1000px] xl:w-[1150px]  ">
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
